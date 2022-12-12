@@ -1,0 +1,1994 @@
+[
+  {
+    "model": "users.customuser",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$Yu21lBtLK6xZrCmsCrtb0W$oS5xCmj60AUt0j+qMG4HCacDT3O77DrPblRTdaSWTqU=",
+      "last_login": "2022-12-02T01:11:29.423Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-11-28T13:20:52.219Z",
+      "username": "aaaa",
+      "email": "grilitov@gamil.com",
+      "phone": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$X856hUaG4Tpdb9n6U5MdIi$E9YUgDFAqx4+ntynR8FNMDJFmRDg4Cr3gcsbLEy+nsw=",
+      "last_login": "2022-11-30T12:58:02.933Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-11-28T16:22:50.818Z",
+      "username": "c",
+      "email": "",
+      "phone": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$dAjDXOsx6WodMROd0uIDNZ$opMhozv/uU+MiPo63FQkhwWMgv38gffHZllRG7C567w=",
+      "last_login": "2022-11-30T08:54:23.448Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-11-30T08:54:13.511Z",
+      "username": "abc",
+      "email": "",
+      "phone": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$hIiqwrpxYfFdYQLyy8Z0CX$IGXyAXEW3jte66A0lSkDnSQKAx9fsJEDUAm7+oOTggw=",
+      "last_login": "2022-11-30T10:07:57.132Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-11-30T10:06:44.638Z",
+      "username": "sdfdfsdfsdfs",
+      "email": "",
+      "phone": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$W6YX7zI8VmmilH5ILzCGXq$TANTkW0bSNeruMdRxLRNnO8/jXPhVSntR0VCEAKnHdY=",
+      "last_login": "2022-11-30T18:55:12.338Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-11-30T18:54:55.238Z",
+      "username": "Dimasik",
+      "email": "",
+      "phone": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$2fhp6Gb3Wr48nHuSEz80xn$VNn4s5UQeUMGcFyzJf+hHL6oJbRURDgFNePK+20OzyI=",
+      "last_login": "2022-12-04T06:57:55.374Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-02T03:12:32.436Z",
+      "username": "grisha",
+      "email": "grilitov@gamil.com",
+      "phone": "123456789",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$Xn3Ddfpd5W1MrVf9npGCV9$6YIaBvbtReCGAiEBOEUs0wpzmDFIBq20UO5QSk5YF+s=",
+      "last_login": "2022-12-12T18:00:01.736Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-12-04T11:01:48.015Z",
+      "username": "a",
+      "email": "gri@mail.com",
+      "phone": "134234242",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$fKcVhubyI8LWfdLrljVtVb$rXhyRfpjTPltXg8e/eMyOkKvRvuhe+bsh1z+BCXWXfo=",
+      "last_login": "2022-12-04T11:41:43.311Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-12-04T11:41:33.319Z",
+      "username": "aaa",
+      "email": "",
+      "phone": "232344232342",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 39,
+    "fields": {
+      "product": 1,
+      "creator": 7,
+      "status": "WORK",
+      "date_start": "2022-12-04T11:28:07.121Z",
+      "date_finish": "2022-12-04T11:27:00Z",
+      "address": "Moscow"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 40,
+    "fields": {
+      "product": 112,
+      "creator": 7,
+      "status": "WORK",
+      "date_start": "2022-12-04T11:35:04.790Z",
+      "date_finish": "2022-12-04T11:34:00Z",
+      "address": "asdsdfsf"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 41,
+    "fields": {
+      "product": 49,
+      "creator": 8,
+      "status": "WORK",
+      "date_start": "2022-12-04T11:42:51.628Z",
+      "date_finish": "2022-12-31T11:42:00Z",
+      "address": "Hanoy"
+    }
+  },
+  {
+    "model": "orders.customer",
+    "pk": 56,
+    "fields": {
+      "user": 7,
+      "size": 21,
+      "order": 39
+    }
+  },
+  {
+    "model": "orders.customer",
+    "pk": 57,
+    "fields": {
+      "user": 7,
+      "size": 42,
+      "order": 40
+    }
+  },
+  {
+    "model": "orders.customer",
+    "pk": 58,
+    "fields": {
+      "user": 8,
+      "size": 150,
+      "order": 41
+    }
+  },
+  {
+    "model": "orders.manufacture",
+    "pk": 1,
+    "fields": {
+      "name": "Hanoy"
+    }
+  },
+  {
+    "model": "orders.manufacture",
+    "pk": 2,
+    "fields": {
+      "name": "Hanoy"
+    }
+  },
+  {
+    "model": "orders.contributor",
+    "pk": 1,
+    "fields": {
+      "name": "Oleg"
+    }
+  },
+  {
+    "model": "orders.contributor",
+    "pk": 2,
+    "fields": {
+      "name": "Semen"
+    }
+  },
+  {
+    "model": "orders.discount",
+    "pk": 1,
+    "fields": {
+      "percent": 12,
+      "size": 20
+    }
+  },
+  {
+    "model": "orders.discount",
+    "pk": 2,
+    "fields": {
+      "percent": 30,
+      "size": 54
+    }
+  },
+  {
+    "model": "orders.discount",
+    "pk": 3,
+    "fields": {
+      "percent": 45,
+      "size": 100
+    }
+  },
+  {
+    "model": "orders.discount",
+    "pk": 4,
+    "fields": {
+      "percent": 60,
+      "size": 200
+    }
+  },
+  {
+    "model": "orders.discount",
+    "pk": 5,
+    "fields": {
+      "percent": 16,
+      "size": 30
+    }
+  },
+  {
+    "model": "orders.discount",
+    "pk": 6,
+    "fields": {
+      "percent": 16,
+      "size": 30
+    }
+  },
+  {
+    "model": "orders.discount",
+    "pk": 7,
+    "fields": {
+      "percent": 21,
+      "size": 25
+    }
+  },
+  {
+    "model": "orders.discountset",
+    "pk": 1,
+    "fields": {
+      "discounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "orders.discountset",
+    "pk": 2,
+    "fields": {
+      "discounts": [
+        1,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "model": "orders.discountset",
+    "pk": 3,
+    "fields": {
+      "discounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "orders.discountset",
+    "pk": 4,
+    "fields": {
+      "discounts": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "orders.discountset",
+    "pk": 5,
+    "fields": {
+      "discounts": [
+        1,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "orders.discountset",
+    "pk": 6,
+    "fields": {
+      "discounts": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 1,
+    "fields": {
+      "code": 300050,
+      "inn": null,
+      "name": "APAZIDE 200MG GL 16",
+      "manufacture": 1,
+      "contributor": 1,
+      "ppv": 19.7,
+      "pph": 13.02,
+      "discounts": 1
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 2,
+    "fields": {
+      "code": 300030,
+      "inn": null,
+      "name": "APAZIDE 4% SUSP 100 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 23.2,
+      "pph": 15.36,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 3,
+    "fields": {
+      "code": 322760,
+      "inn": null,
+      "name": "ASUMATE 20 CPP 21",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 52.3,
+      "pph": 34.56,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 4,
+    "fields": {
+      "code": 300730,
+      "inn": null,
+      "name": "AZIX 500 ",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 79.7,
+      "pph": 52.66,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 5,
+    "fields": {
+      "code": 300990,
+      "inn": null,
+      "name": "AZIX 40MG/ML SUSP 900MG",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 70,
+      "pph": 46.25,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 6,
+    "fields": {
+      "code": 301000,
+      "inn": null,
+      "name": "AZIX 40MG/ML SUSP 1500MG",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 80,
+      "pph": 52.85,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 7,
+    "fields": {
+      "code": 322620,
+      "inn": null,
+      "name": "BELARA CPP 21",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 85.3,
+      "pph": 56.36,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 8,
+    "fields": {
+      "code": 300160,
+      "inn": null,
+      "name": "BRONCHATHIOL A 5% SIROP 150 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 31.2,
+      "pph": 20.62,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 9,
+    "fields": {
+      "code": 300150,
+      "inn": null,
+      "name": "BRONCHATHIOL E 2% SIROP 125 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 18.6,
+      "pph": 12.32,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 10,
+    "fields": {
+      "code": 380000,
+      "inn": null,
+      "name": "CATAFLAM 25 MG DG BOITE DE 20",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 24.6,
+      "pph": 16.29,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 11,
+    "fields": {
+      "code": 380020,
+      "inn": null,
+      "name": "CATAFLAM 50 MG DG BOITE DE 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 24,
+      "pph": 15.86,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 12,
+    "fields": {
+      "code": 380010,
+      "inn": null,
+      "name": "CATAFLAM 50 MG DG BOITE DE 20",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 45.5,
+      "pph": 30.1,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 13,
+    "fields": {
+      "code": 380030,
+      "inn": null,
+      "name": "CATAFLAM 75 MG SUPPO BOITE DE 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 29.5,
+      "pph": 19.5,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 14,
+    "fields": {
+      "code": 300180,
+      "inn": null,
+      "name": "CODOLIPRANE 400MG/20MG CP 16",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 22.2,
+      "pph": 14.7,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 15,
+    "fields": {
+      "code": 300770,
+      "inn": null,
+      "name": "CURTEC 10 MG CP 15",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 50,
+      "pph": 33.03,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 16,
+    "fields": {
+      "code": 300960,
+      "inn": null,
+      "name": "CURTEC 1MG/ML SOL BUV 60 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 20,
+      "pph": 13.22,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 17,
+    "fields": {
+      "code": 322810,
+      "inn": null,
+      "name": "DIENILLE 2 MG CPP 21",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 72,
+      "pph": 47.59,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 18,
+    "fields": {
+      "code": 300760,
+      "inn": null,
+      "name": "DOLI PEDIATR 3% SOL BUV 90 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 17.5,
+      "pph": 11.57,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 19,
+    "fields": {
+      "code": 300230,
+      "inn": null,
+      "name": "DOLIPRANE 100MG SACH 12",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 8.6,
+      "pph": 5.71,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 20,
+    "fields": {
+      "code": 300250,
+      "inn": null,
+      "name": "DOLIPRANE 150MG SACH 12",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 9.7,
+      "pph": 6.41,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 21,
+    "fields": {
+      "code": 300270,
+      "inn": null,
+      "name": "DOLIPRANE 200MG SACH 12",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 11.2,
+      "pph": 7.4,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 22,
+    "fields": {
+      "code": 300290,
+      "inn": null,
+      "name": "DOLIPRANE 300MG SACH 12",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 12.8,
+      "pph": 8.49,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 23,
+    "fields": {
+      "code": 300240,
+      "inn": null,
+      "name": "DOLIPRANE 100MG SUP 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 8.6,
+      "pph": 5.71,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 24,
+    "fields": {
+      "code": 300260,
+      "inn": null,
+      "name": "DOLIPRANE 150MG SUP 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 9.7,
+      "pph": 6.41,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 25,
+    "fields": {
+      "code": 300280,
+      "inn": null,
+      "name": "DOLIPRANE 200MG SUP 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 11.7,
+      "pph": 7.77,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 26,
+    "fields": {
+      "code": 300300,
+      "inn": null,
+      "name": "DOLIPRANE 300MG SUP 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 12.8,
+      "pph": 8.49,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 27,
+    "fields": {
+      "code": 300310,
+      "inn": null,
+      "name": "DOLIPRANE 500MG CP 20 ",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 10.3,
+      "pph": 6.81,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 28,
+    "fields": {
+      "code": 300720,
+      "inn": null,
+      "name": "DOLIPRANE 500MG CP DISPERS 12",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 16,
+      "pph": 10.57,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 29,
+    "fields": {
+      "code": 300320,
+      "inn": null,
+      "name": "DOLIPRANE 500MG CP EFF 16 ",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 15.8,
+      "pph": 10.44,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 30,
+    "fields": {
+      "code": 300330,
+      "inn": null,
+      "name": "DOLIPRANE 500MG GL 16",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 15.3,
+      "pph": 10.11,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 31,
+    "fields": {
+      "code": 300340,
+      "inn": null,
+      "name": "DOLIPRANE 500MG SACH 12",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 14.4,
+      "pph": 9.51,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 32,
+    "fields": {
+      "code": 300210,
+      "inn": null,
+      "name": "DOLIPRANE 1G CP EFF 8 ",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 15.8,
+      "pph": 10.44,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 33,
+    "fields": {
+      "code": 300750,
+      "inn": null,
+      "name": "DOLIPRANE 1 G CP SECABLE 10 ",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 14,
+      "pph": 9.25,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 34,
+    "fields": {
+      "code": 301160,
+      "inn": null,
+      "name": "DOLIPRANE VIT C 500/150 EFF 16 ",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 18,
+      "pph": 11.89,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 35,
+    "fields": {
+      "code": 300350,
+      "inn": null,
+      "name": "DOLIRHUME 500/ 30 MG CP 16",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 18.3,
+      "pph": 12.13,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 36,
+    "fields": {
+      "code": 300220,
+      "inn": null,
+      "name": "DOLIPRANE 1G SUP 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 14.4,
+      "pph": 9.51,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 37,
+    "fields": {
+      "code": 300370,
+      "inn": null,
+      "name": "GELUPRANE 500MG GL 16",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 16.6,
+      "pph": 11,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 38,
+    "fields": {
+      "code": 300380,
+      "inn": null,
+      "name": "ISUDRINE 12,38G/ 152MG SACH 12",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 28.5,
+      "pph": 18.86,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 39,
+    "fields": {
+      "code": 300410,
+      "inn": null,
+      "name": "LOPERIUM 2MG GL 20",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 23.4,
+      "pph": 15.5,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 40,
+    "fields": {
+      "code": 300420,
+      "inn": null,
+      "name": "MIGRALGINE 400/62,5/20MG GL 18",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 21.5,
+      "pph": 14.2,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 41,
+    "fields": {
+      "code": 301180,
+      "inn": null,
+      "name": "NABYOL FORTE 100MG CPP 50",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 24.8,
+      "pph": 16.39,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 42,
+    "fields": {
+      "code": 300970,
+      "inn": null,
+      "name": "NEALGYL 80MG CPS ORODISPER 10 ",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 23,
+      "pph": 15.19,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 43,
+    "fields": {
+      "code": 301690,
+      "inn": null,
+      "name": "NEALGYL 80MG CPS ORODISPER 20",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 40.5,
+      "pph": 26.74,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 44,
+    "fields": {
+      "code": 301680,
+      "inn": null,
+      "name": "NEALGYL 80MG CPS ORODISPER 30",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 59.3,
+      "pph": 39.18,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 45,
+    "fields": {
+      "code": 301230,
+      "inn": null,
+      "name": "NOCAND 50MG 7GEL",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 35,
+      "pph": 23.12,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 46,
+    "fields": {
+      "code": 301240,
+      "inn": null,
+      "name": "NOCAND 150MG 1GEL",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 14.4,
+      "pph": 9.51,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 47,
+    "fields": {
+      "code": 301250,
+      "inn": null,
+      "name": "NOCAND 150MG 4GEL",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 50,
+      "pph": 33.03,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 48,
+    "fields": {
+      "code": 301260,
+      "inn": null,
+      "name": "NOCAND 200MG 7GEL",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 98,
+      "pph": 64.75,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 49,
+    "fields": {
+      "code": 300510,
+      "inn": null,
+      "name": "PRAZOL  20MG GL 14",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 54.5,
+      "pph": 36.01,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 50,
+    "fields": {
+      "code": 300870,
+      "inn": null,
+      "name": "PRAZOL  20MG GL 28",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 96,
+      "pph": 63.42,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 51,
+    "fields": {
+      "code": 300860,
+      "inn": null,
+      "name": "PRAZOL  20MG GL 7",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 37,
+      "pph": 24.44,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 52,
+    "fields": {
+      "code": 380040,
+      "inn": null,
+      "name": "SIRDALUD 4 MG COMP BOITE DE 30",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 86.7,
+      "pph": 57.29,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 53,
+    "fields": {
+      "code": 300550,
+      "inn": null,
+      "name": "SPASMOPRIV 100MG GL 20",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 28.7,
+      "pph": 18.99,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 54,
+    "fields": {
+      "code": 300560,
+      "inn": null,
+      "name": "SPASMOPRIV 200MG CP 30",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 44.9,
+      "pph": 29.67,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 55,
+    "fields": {
+      "code": 380050,
+      "inn": null,
+      "name": "VOLTARENE 25 mg Comp enrob? boite de 30",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 35.4,
+      "pph": 23.42,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 56,
+    "fields": {
+      "code": 380060,
+      "inn": null,
+      "name": "VOLTARENE 50 mg Comp pellicul? boite de 30",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 66.8,
+      "pph": 44.14,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 57,
+    "fields": {
+      "code": 380070,
+      "inn": null,
+      "name": "VOLTARENE LP 100 mg Comp pellicul? boite de 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 51.3,
+      "pph": 33.91,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 58,
+    "fields": {
+      "code": 380080,
+      "inn": null,
+      "name": "VOLTARENE 75 mg Amp.inj de 3 ml boite de 2",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 23.3,
+      "pph": 15.4,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 59,
+    "fields": {
+      "code": 380090,
+      "inn": null,
+      "name": "VOLTARENE 75 mg Amp.inj de 3 ml boite de 5",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 56.3,
+      "pph": 37.2,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 60,
+    "fields": {
+      "code": 380100,
+      "inn": null,
+      "name": "VOLTARENE 12,50 mg Suppositoire boite de 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 11.7,
+      "pph": 7.74,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 61,
+    "fields": {
+      "code": 380110,
+      "inn": null,
+      "name": "VOLTARENE 25 mg Suppositoire boite de 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 16.4,
+      "pph": 10.83,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 62,
+    "fields": {
+      "code": 380120,
+      "inn": null,
+      "name": "VOLTARENE 100 mg Suppositoire boite de 5 ",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 27,
+      "pph": 17.84,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 63,
+    "fields": {
+      "code": 380140,
+      "inn": null,
+      "name": "VOLTARENE 100 Suppositoire boite de 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 52,
+      "pph": 34.36,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 64,
+    "fields": {
+      "code": 380150,
+      "inn": null,
+      "name": "VOLTARENE EMULGEL 50 g",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 53,
+      "pph": 35.05,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 65,
+    "fields": {
+      "code": 380130,
+      "inn": null,
+      "name": "VOLTFAST 50 MG Poudre sachet boite de 9",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 49.7,
+      "pph": 32.84,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 66,
+    "fields": {
+      "code": 385000,
+      "inn": null,
+      "name": "YOFOLVIT 200/ 400/ 2 MCG CP 28",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 71,
+      "pph": 46.91,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 67,
+    "fields": {
+      "code": 300920,
+      "inn": null,
+      "name": "ZAMOX  1000MG/125MG SACH 12",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 98,
+      "pph": 64.75,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 68,
+    "fields": {
+      "code": 301070,
+      "inn": null,
+      "name": "ZAMOX  1000MG/125MG SACH 16",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 116,
+      "pph": 76.64,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 69,
+    "fields": {
+      "code": 301300,
+      "inn": null,
+      "name": "ZAMOX 1000 MG/125MG SACH 24",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 167,
+      "pph": 110.34,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 70,
+    "fields": {
+      "code": 300930,
+      "inn": null,
+      "name": "ZAMOX 500MG/62,5MG SACH 12",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 68,
+      "pph": 44.93,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 71,
+    "fields": {
+      "code": 300950,
+      "inn": null,
+      "name": "ZAMOX Ef 100MG/12,5MG SIR 60ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 70,
+      "pph": 46.25,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 72,
+    "fields": {
+      "code": 300940,
+      "inn": null,
+      "name": "ZAMOX NR 100MG/12,5MG SIR 30ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 43,
+      "pph": 28.41,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 73,
+    "fields": {
+      "code": 322610,
+      "inn": null,
+      "name": "PHYSIOMER EUCALYPTUS",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 119,
+      "pph": 79.33,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 74,
+    "fields": {
+      "code": 320590,
+      "inn": null,
+      "name": "PHYSIOMER DECONGEST 135 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 109,
+      "pph": 72.67,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 75,
+    "fields": {
+      "code": 320560,
+      "inn": null,
+      "name": "PHYSIOMER BABY SPRAY 115 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 99,
+      "pph": 66,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 76,
+    "fields": {
+      "code": 320570,
+      "inn": null,
+      "name": "PHYSIOMER JET NORMAL 135 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 99,
+      "pph": 66,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 77,
+    "fields": {
+      "code": 320580,
+      "inn": null,
+      "name": "PHYSIOMER 30 UNIDOSES 5 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 109,
+      "pph": 72.67,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 78,
+    "fields": {
+      "code": 301750,
+      "inn": null,
+      "name": "PHYSIOMER 10 UNIDOSES 5 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 38,
+      "pph": 25.33,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 79,
+    "fields": {
+      "code": 301740,
+      "inn": null,
+      "name": "PHYSIOMER 20 UNIDOSES 5 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 68,
+      "pph": 45.33,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 80,
+    "fields": {
+      "code": 320610,
+      "inn": null,
+      "name": "AUDICLEAN SPRAY AUDITIF 60 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 99,
+      "pph": 66,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 81,
+    "fields": {
+      "code": 320220,
+      "inn": null,
+      "name": "PARA SPECIAL POUX  AERO 116G",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 74.7,
+      "pph": 49.36,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 82,
+    "fields": {
+      "code": 321540,
+      "inn": null,
+      "name": "BIOMIL PLUS 1",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 64,
+      "pph": 54.4,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 83,
+    "fields": {
+      "code": 321550,
+      "inn": null,
+      "name": "BIOMIL PLUS 2",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 64,
+      "pph": 54.4,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 84,
+    "fields": {
+      "code": 321740,
+      "inn": null,
+      "name": "BIOMIL PLUS AR1",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 67,
+      "pph": 56.95,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 85,
+    "fields": {
+      "code": 320690,
+      "inn": null,
+      "name": "ARNIGEL 45g Gel",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 45,
+      "pph": 29.72,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 86,
+    "fields": {
+      "code": 320720,
+      "inn": null,
+      "name": "CICADERMA POMMADE 30 G",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 43.4,
+      "pph": 28.68,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 87,
+    "fields": {
+      "code": 320790,
+      "inn": null,
+      "name": "HOMEOPLASMINE POMMADE 18 G",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 30,
+      "pph": 19.83,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 88,
+    "fields": {
+      "code": 320820,
+      "inn": null,
+      "name": "OSCILLOCOCCINUM 200 K/6 DOSES",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 71.5,
+      "pph": 47.25,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 89,
+    "fields": {
+      "code": 320870,
+      "inn": null,
+      "name": "SEDATIF P.C. 40 CPS",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 45.5,
+      "pph": 30.06,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 90,
+    "fields": {
+      "code": 301320,
+      "inn": null,
+      "name": "TADALIS 20MG CP 1",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 81.5,
+      "pph": 53.86,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 91,
+    "fields": {
+      "code": 300149,
+      "inn": null,
+      "name": "BISPIRAZOLE 1,5MUI/250MG CPP15",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 79.9,
+      "pph": 52.79,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 92,
+    "fields": {
+      "code": 300100,
+      "inn": null,
+      "name": "BISOLVOMYCINE 4MG/250MG DRG 16",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 19.8,
+      "pph": 13.11,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 93,
+    "fields": {
+      "code": 300390,
+      "inn": null,
+      "name": "LONGAMYCINE 100MG CP 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 34.6,
+      "pph": 22.86,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 94,
+    "fields": {
+      "code": 300400,
+      "inn": null,
+      "name": "LONGAMYCINE 200MG CP 8",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 47.5,
+      "pph": 31.41,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 95,
+    "fields": {
+      "code": 300440,
+      "inn": null,
+      "name": "MOBIC 7,5MG CP 14",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 42.6,
+      "pph": 28.15,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 96,
+    "fields": {
+      "code": 300820,
+      "inn": null,
+      "name": "MOBIC 15MG CP 14",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 61.5,
+      "pph": 40.63,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 97,
+    "fields": {
+      "code": 300780,
+      "inn": null,
+      "name": "COTIPRED 20 MG CP EFF 20",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 48.5,
+      "pph": 32.05,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 98,
+    "fields": {
+      "code": 320280,
+      "inn": null,
+      "name": "MOBIC 3 AMPOULES 15 MG/1.5 ML",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 37,
+      "pph": 24.44,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 99,
+    "fields": {
+      "code": 300500,
+      "inn": null,
+      "name": "PHOSPHALUGEL 12,38G SACH 20",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 34.5,
+      "pph": 22.83,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 100,
+    "fields": {
+      "code": 300530,
+      "inn": null,
+      "name": "RUPTON  4MG/50MG GL 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 26,
+      "pph": 17.17,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 101,
+    "fields": {
+      "code": 300570,
+      "inn": null,
+      "name": "SPIRALIDE 1,5MUI CPP 16",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 59.1,
+      "pph": 39.09,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 102,
+    "fields": {
+      "code": 300580,
+      "inn": null,
+      "name": "SPIRALIDE 3MUI CPP 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 73.9,
+      "pph": 48.86,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 103,
+    "fields": {
+      "code": 300590,
+      "inn": null,
+      "name": "SPIRALIDE 3MUI CPP 16",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 112.2,
+      "pph": 74.14,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 104,
+    "fields": {
+      "code": 300600,
+      "inn": null,
+      "name": "SPIRAZOLE 0,75MUI/125MG CPP 30",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 80.6,
+      "pph": 53.26,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 105,
+    "fields": {
+      "code": 301330,
+      "inn": null,
+      "name": "TADALIS 20MG CP 2",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 145.6,
+      "pph": 96.19,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 106,
+    "fields": {
+      "code": 301340,
+      "inn": null,
+      "name": "TADALIS 20MG CP 4",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 279,
+      "pph": 184.61,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 107,
+    "fields": {
+      "code": 301760,
+      "inn": null,
+      "name": "BIOGAZE BOITE 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 99,
+      "pph": 69.3,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 108,
+    "fields": {
+      "code": 320010,
+      "inn": null,
+      "name": "A-PAR  AERO 125G",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 98.8,
+      "pph": 69.15,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 109,
+    "fields": {
+      "code": 320030,
+      "inn": null,
+      "name": "CACIT 1000MG CP 10",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 36,
+      "pph": 23.81,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 110,
+    "fields": {
+      "code": 320040,
+      "inn": null,
+      "name": "CACIT 1000MG CP 30",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 107.7,
+      "pph": 71.19,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 111,
+    "fields": {
+      "code": 320050,
+      "inn": null,
+      "name": "CACIT VIT D3 1G/880 UI SAC 30",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 110.1,
+      "pph": 72.75,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 112,
+    "fields": {
+      "code": 320060,
+      "inn": null,
+      "name": "CACIT 500MG CP 20",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 36,
+      "pph": 23.81,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 113,
+    "fields": {
+      "code": 320250,
+      "inn": null,
+      "name": "SPREGAL 0,663G/5,305G SOL 152G",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 106,
+      "pph": 70.04,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 114,
+    "fields": {
+      "code": 322820,
+      "inn": null,
+      "name": "RISONEL 0.05% SPRAY NAS FL140D",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 119.1,
+      "pph": 78.65,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 115,
+    "fields": {
+      "code": 300980,
+      "inn": null,
+      "name": "DOLIGRIPPE",
+      "manufacture": 0,
+      "contributor": 1,
+      "ppv": 20,
+      "pph": 0,
+      "discounts": 6
+    }
+  },
+  {
+    "model": "orders.product",
+    "pk": 116,
+    "fields": {
+      "code": 322860,
+      "inn": "DESIRETT 75?g CPP 28",
+      "name": "DESIRETT 75?g CPP 28",
+      "manufacture": 1,
+      "contributor": 1,
+      "ppv": 0,
+      "pph": 0,
+      "discounts": 6
+    }
+  }
+]

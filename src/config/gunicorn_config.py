@@ -5,5 +5,5 @@ workers = 3
 
 loglevel = 'debug'
 accesslog = '/home/admin/app/eccosy/log/gunicorn.access.log'
-errorlog =  '/home/admin/app/eccosy/log/gunicorn.error.log'
-acceslogformat ="%(h)s %(l)s %(u)s %(t)s %(r)s %(s)s %(b)s %(f)s %(a)s"
+errorlog = '/home/admin/app/eccosy/log/gunicorn.error.log'
+acceslogformat = "%(h)s %(l)s %(u)s %(t)s %(r)s %(s)s %(b)s %(f)s %(a)s"

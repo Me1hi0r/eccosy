@@ -4,15 +4,20 @@ import environ
 env = environ.Env()
 environ.Env.read_env()
 
+PROJECT_PATH = Path(__file__).resolve().parent.parent.parent
+
 SECRET_KEY = env('SECRET_KEY')
 
-DEBUG = env('DEBUG')
 
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
 ROOT_URLCONF = 'config.urls'
+
+DEBUG = env('DEBUG')
+if DEBUG:
+    STATICFILES_DIRS = [PROJECT_PATH / 'static']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -59,8 +64,6 @@ TEMPLATES = [
         },
     },
 ]
-
-
 
 AUTH_PASSWORD_VALIDATORS = [
     {

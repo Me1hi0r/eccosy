@@ -3,7 +3,7 @@
     src: url('/static/Roboto-Regular.ttf');
 }
 body {
-    font-family: serif, 'Roboto';
+    font-family: 'Roboto', serif;
     font-size: 13px;
     background-color: aquamarine;
 }

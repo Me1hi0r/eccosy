@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+
+{% block title %}Order{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="center">
+        </div>
+    </div>
+    <div class="container">
+        <div class="center">
+            <p>
+                User: {{ request.user }}
+                <a class="button" href="{% url 'order:user' %}">MY ORDER</a>
+                <a class="button" href="{% url 'user:change' %}">MY PROFILE</a>
+                <a class="button" href="{% url 'logout' %}">LOG OUT</a>
+            </p>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="center">
+
+            <p> PRODUCTS: </p>
+        <div class="scroll">
+            <div class="tableFixHead">
+                <table>
+                    <thead>
+                <tr>
+                    <th></th>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>PPV</th>
+                    <th>PPH</th>
+                    <th>{{ p1 }}% RF</th>
+                    <th>{{ p1 }}% RF</th>
+                    <th>{{ p1 }}% RF</th>
+                    <th>{{ p1 }}% RF</th>
+                </tr>
+                    </thead>
+                {% for product in products %}
+                    <tr>
+                        <td> <a class="button" href="{% url 'order:create' product.pk %}">CREATE</a></td>
+                        <td> {{ product.code }} </td>
+                        <td> {{ product.name }}</td>
+                        <td> {{ product.ppv }}</td>
+                        <td> {{ product.pph }}</td>
+                        {% for price in product.prices %}
+                            <td> {{ price.1 }}/{{ price.2 }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </table>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="center">
+            <p> ORDERS IN WORK: </p>
+
+            <div class="scroll">
+
+                <div class="tableFixHead">
+            <table>
+                <thead>
+
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>Creator</th>
+                    <th>Product</th>
+                    <th>Manufacture</th>
+                    <th>Size</th>
+                    <th>Now</th>
+                    <th>Customers
+                        <table>
+                            <tr>
+                                <th class="w3">Name</th>
+                                <th class="w2">Size</th>
+                                <th class="w2">Price</th>
+                            </tr>
+                        </table>
+
+                    </th>
+                    <th>Date</th>
+                    <th>Address</th>
+                </tr>
+                </thead>
+                {% for order in orders %}
+                    {% if order.status == 'WORK' %}
+
+
+                    <tr>
+                        <td> <a class="button" href="{% url 'order:detail' order.id %}">DETAIL</a></td>
+                        <td> <a class="button" href="{% url 'order:append' order.id %}">APPEND</a></td>
+                        <td> {{ order.creator }} </td>
+                        <td> {{ order.product.name }}</td>
+                        <td> {{ order.product.manufacture }}</td>
+                        <td> {{ order.order_size }}</td>
+                        <td> {{ order.discount }}%</td>
+                        <td>
+                            <table>
+                            {% for customer in order.customers %}
+                                <tr>
+                                <td class="w3">
+                                {{ customer.0 }}
+                                </td>
+                                <td class="w2">
+                                    {{ customer.1 }}
+                                </td>
+                                    <td class="w2">
+                                        {{ customer.2 }}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            </table>
+                        </td>
+                        <td> {{ order.date_finish }}</td>
+                        <td> {{ order.address }}</td>
+                    </tr>
+                    {% endif %}
+                {% endfor %}
+            </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

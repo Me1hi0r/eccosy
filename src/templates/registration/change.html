@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Change user{% endblock %}
+
+{% block content %}
+    <div class="vertical">
+        <div class="container">
+            <div class="center">
+                <h2>Change user</h2>
+                    <form method="post">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <br>
+                        <a href="" class="button" onclick='this.parentNode.submit(); return false'>SAVE</a>
+                    </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        const byId = id => document.getElementById(id);
+        const byTag = tag => document.getElementsByTagName(tag)
+        byId('id_password').hidden = true
+        byTag('label')[3].hidden = true
+    </script>
+{% endblock %}

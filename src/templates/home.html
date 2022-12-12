@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="vertical">
+        <div class="container">
+            <div class="center">
+                <div class="banner"> EcCoSy </div>
+                {% if user.is_authenticated %}
+                    <h2>Welcome, {{ user.username }}.</h2>
+                    <a class="button" href="{% url 'user:change' %}">PROFILE</a>
+                    <a class="button" href="{% url 'logout' %}">LOG OUT</a>
+                    <br>
+                    <br>
+                    <a class="button" href="{% url 'order:list' %}">ORDERS</a>
+                    <a class="button" href="{% url 'order:user' %}">MY ORDERS</a>
+                    <br>
+                {% else %}
+                    <p>You are not logged</p>
+                    <br>
+                    <p> <a class="button" href="{% url 'login' %}">LOG IN</a> </p>
+                    <br>
+                    <p> <a class="button" href="{% url 'user:signup' %}">SIGN UP</a> </p>
+                    <br>
+                    <p> <a class="button" href="admin">ADMIN IN</a> </p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

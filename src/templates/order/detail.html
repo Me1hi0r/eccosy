@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %}Order{% endblock %}
+
+{% block content %}
+    <div style="margin-top: 10vh"></div>
+    <div class="container">
+        <div class="center">
+            <h2>Order</h2>
+            <p> Creator: {{ order.creator }} </p>
+            <p> Product: {{ order.product.name }} </p>
+            <p> Address: {{ order.address }} </p>
+            <p> Status: {{ order.status }} </p>
+            <p> Start date: {{ order.date_start }} </p>
+            <p> Finish date: {{ order.date_finish }} </p>
+            <p> PPV: {{ order.product.ppv }} </p>
+            <p> PPH: {{ order.product.pph }} </p>
+            <p> Discounts: {{ order.product.discounts }} </p>
+            ------------------------------------
+            <p> Lot in order: {{ az }} </p>
+            <p> Next discount: {{ percent }}% </p>
+            <p> Need add to get next discount: {{ add }} </p>
+            <p> PF{{ p }}% {{ price }} </p>
+            ------------------------------------
+            <p>Customer list</p>
+            <table>
+                <tr>
+                    <th>Customer</th>
+                    <th>Size</th>
+                    <th>Price</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                {% for bayer in bayers %}
+                    <tr>
+                        <td> {{ bayer.user }} </td>
+                        <td> {{ bayer.size }} </td>
+                        <td> {{ bayer.value }} </td>
+                        <td>
+                            {% if request.user == bayer.user and order.status == 'WORK' %}
+                                <a class="button" href="{% url 'order:drop' order.pk bayer.pk %}">DEL</a>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if request.user == bayer.user and order.status == 'WORK' %}
+                            <a class="button" href="{% url 'order:update' order.pk bayer.pk %}">CHANGE</a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+            <br>
+            <a class="button" href="{% url 'order:list' %}">BACK</a>
+        </div>
+    </div>
+{% endblock %}

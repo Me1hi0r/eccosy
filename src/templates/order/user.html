@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %}My Order{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="center">
+            <p>
+                User: {{ request.user }}
+                <a class="button" href="{% url 'logout' %}">LOG OUT</a>
+            </p>
+        <br>
+            <a class="button" href="{% url 'order:list' %}">BACK</a>
+        <br>
+            <br>
+            <p> MY ORDERS: </p>
+  <div class="tableFixHead">
+            <table>
+                <thead>
+
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>Product</th>
+                    <th>Customers</th>
+                    <th>Manufacture</th>
+                    <th>Contributor</th>
+                    <th>Size</th>
+                    <th>Now</th>
+                    <th>Discounts</th>
+                </tr>
+                </thead>
+                {% for order in orders %}
+                    <tr>
+                        <td> <a class="button" href="{% url 'order:detail' order.id %}">DETAIL</a></td>
+                        <td>
+                            {% if request.user == order.creator %}
+                                <a class="button" href="{% url 'order:delete' order.id %}">DELETE</a>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if request.user == order.creator and order.status == 'WORK' %}
+                                <a class="button" href="{% url 'order:status' order.id 'archive' %}">IN ARCHIVE</a>
+                            {% endif %}
+                            {% if request.user == order.creator and order.status == 'ARCHIVE' %}
+                                <a class="button" href="{% url 'order:status' order.id 'work' %}">IN WORK</a>
+                            {% endif %}
+                        </td>
+                        <td> {{ order.product.name }}</td>
+                        <td> {{ order.customers }}</td>
+                        <td> {{ order.product.manufacture.name }}</td>
+                        <td> {{ order.product.contributor.name }}</td>
+                        <td> {{ order.order_size }}</td>
+                        <td> {{ order.discount }}%</td>
+                        <td> {{ order.product.discounts }}</td>
+                    </tr>
+                    {% endfor %}
+            </table>
+  </div>
+        </div>
+    </div>
+{% endblock %}

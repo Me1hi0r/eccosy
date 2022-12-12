@@ -1,121 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
     <meta charset="UTF-8">
     <title>
     {% block title %}
         EcCoSy
     {% endblock %}
     </title>
-    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Federant' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <style>
-        body {
-            {#font-family: 'Sofia', serif;#}
-            font-family: 'Roboto', serif;
-            font-size: 13px;
-            background-color: aquamarine;
-        }
-        p, li, ul {
-            padding: 0;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        .errorlist {
-            font-size: 12px;
-            color: red;
-            font-family: serif;
-            font-style: italic;
-        }
-        .button {
-            background-color: #fee6e3;
-            border: 2px solid #111;
-            padding: 3px;
-            margin: 10px;
-            border-radius: 8px;
-            color: #111;
-            cursor: pointer;
-            font-size: 12px;
-            height: 20px;
-            text-align: center;
-            text-decoration: none;
-            user-select: none;
-            -webkit-user-select: none;
-            touch-action: manipulation;
-            width: 100px;
-        }
-
-
-        .button:active {
-            background-color: #ffdeda;
-            outline: 0;
-        }
-
-        .button:hover {
-            outline: 0;
-
-            background-color: #45fe12;
-        }
-
-        .container {
-            display: flex;
-            justify-content: center;
-        }
-        .center {
-            text-align: center;
-        }
-        .vertical {
-            margin-top: 30vh;
-        }
-        .banner {
-            font-size: 140px;
-        }
-        .scroll {
-            height: 40vh;
-            line-height: 1em;
-            overflow:scroll;
-            padding: 5px;
-        }
-        table {
-          border-collapse: collapse;
-          width: 100%;
-        }
-
-        table td, table th {
-          border: 1px solid #ddd;
-          padding: 8px;
-        }
-
-        table tr:nth-child(even){background-color: #f2f2f2;}
-
-        table tr:hover {background-color: #ddd;}
-
-        table th {
-          text-align: left;
-          background-color: #04AA6D;
-          color: white;
-        }
-
-        .w2 {
-            width: 50px;
-            display: inline-block;
-        }
-        .w3 {
-            width: 100px;
-            display: inline-block;
-        }
-        .tableFixHead {
-           overflow-y: auto;
-           height: 40vh;
-            width: 95vw;
-        }
-        .tableFixHead thead th {
-            position: sticky;
-            top: 0;
-        }
-
-    </style>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
     {% block content %}

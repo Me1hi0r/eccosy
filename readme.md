@@ -20,5 +20,8 @@ pip install -r req/requirements.py
 - python manage.py migrate
 - python manage.py createsuperuser
 - python manage.py collectstatic
+### dev
 - python manage.py runserver 0.0.0.0:8000
+### prod
+- . ./start
 

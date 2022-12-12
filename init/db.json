@@ -216,6 +216,13 @@
   },
   {
     "model": "orders.manufacture",
+    "pk": 0,
+    "fields": {
+      "name": "Danag"
+    }
+  },
+  {
+    "model": "orders.manufacture",
     "pk": 1,
     "fields": {
       "name": "Hanoy"

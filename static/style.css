@@ -5,7 +5,7 @@
 body {
     font-family: 'Roboto', serif;
     font-size: 13px;
-    background-color: aquamarine;
+    background-color: red;
 }
 p, li, ul {
     padding: 0;
@@ -19,12 +19,12 @@ p, li, ul {
     font-style: italic;
 }
 .button {
-    background-color: #fee6e3;
-    border: 2px solid #111;
-    padding: 3px;
+    background-color: #15a96b;
+    border: 2px solid #15a96b;
+    padding: 7px;
     margin: 10px;
-    border-radius: 8px;
-    color: #111;
+    border-radius: 4px;
+    color: #fff;
     cursor: pointer;
     font-size: 12px;
     height: 20px;

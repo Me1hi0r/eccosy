@@ -5,7 +5,7 @@
 body {
     font-family: 'Roboto', serif;
     font-size: 13px;
-    background-color: red;
+    background-color: #f6f7f8;
 }
 p, li, ul {
     padding: 0;
@@ -19,33 +19,24 @@ p, li, ul {
     font-style: italic;
 }
 .button {
-    background-color: #15a96b;
-    border: 2px solid #15a96b;
-    padding: 7px;
-    margin: 10px;
-    border-radius: 4px;
+    padding: 8px 16px ;
+    background: #15a96b;
     color: #fff;
+    border: 2px solid #15a96b;
+    font-size: 18px;
+    line-height: 21px;
     cursor: pointer;
-    font-size: 12px;
-    height: 20px;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 100px;
+    border-radius: 4px;
+    transition: .2s;
 }
-
-
+.accent{color: #17a2b8;}
 .button:active {
-    background-color: #ffdeda;
+    background-color: #f6f7f8;
     outline: 0;
 }
-
+.min-h-440{min-height: 440px;}
 .button:hover {
     outline: 0;
-
-    background-color: #45fe12;
 }
 
 .container {
@@ -58,13 +49,10 @@ p, li, ul {
 .vertical {
     margin-top: 30vh;
 }
-.banner {
-    font-size: 140px;
-}
+
 .scroll {
-    height: 40vh;
     line-height: 1em;
-    overflow:scroll;
+    overflow:auto;
     padding: 5px;
 }
 table {
@@ -79,7 +67,8 @@ table td, table th {
 
 table tr:nth-child(even){background-color: #f2f2f2;}
 
-table tr:hover {background-color: #ddd;}
+/*table tr:hover {background-color: #ddd;}*/
+
 
 table th {
   text-align: left;

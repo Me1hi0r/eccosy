@@ -3,129 +3,130 @@
 {% block title %}Order{% endblock %}
 
 {% block content %}
-    <div class="container">
-        <div class="center">
-        </div>
+<div class="container">
+    <div class="center">
     </div>
-    <div class="container">
-        <div class="center">
-            <p>
-                User: {{ request.user }}
-                <a class="button" href="{% url 'order:user' %}">MY ORDER</a>
-                <a class="button" href="{% url 'user:change' %}">MY PROFILE</a>
-                <a class="button" href="{% url 'logout' %}">LOG OUT</a>
-            </p>
+</div>
+<div class="container mt-2 mb-5">
+    <nav class="nav d-flex justify-content-between w-100 ">
+        <h5>User: {{ request.user }}</h5>
+        <div>
+            <a class="btn btn-info ml-2" href="{% url 'order:user' %}">MY ORDERS</a>
+            <a class="btn btn-info ml-2" href="{% url 'user:change' %}">PROFILE</a>
+            <a class="btn btn-outline-info ml-2" href="{% url 'logout' %}">LOG OUT</a>
         </div>
+    </nav>
+</div>
+<div class="form-inline my-2 my-lg-0 mt-5 mb-5 container pt-5 flex-column">
+    <h4 class="mb-1"> Global search !</h4>
+    <div>
+        <input id="searchWord" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <div id="searchGo" class="btn btn-outline-success my-2 my-sm-0">Search</div>
+
     </div>
-    <br>
-
-    <div class="container">
-        <div class="center">
-
-            <p> PRODUCTS: </p>
-        <div class="scroll">
-            <div class="tableFixHead">
-                <table>
-                    <thead>
-                <tr>
-                    <th></th>
-                    <th>Code</th>
-                    <th>Name</th>
-                    <th>PPV</th>
-                    <th>PPH</th>
-                    <th>{{ p1 }}% RF</th>
-                    <th>{{ p1 }}% RF</th>
-                    <th>{{ p1 }}% RF</th>
-                    <th>{{ p1 }}% RF</th>
-                </tr>
-                    </thead>
-                {% for product in products %}
-                    <tr>
-                        <td> <a class="button" href="{% url 'order:create' product.pk %}">CREATE</a></td>
-                        <td> {{ product.code }} </td>
-                        <td> {{ product.name }}</td>
-                        <td> {{ product.ppv }}</td>
-                        <td> {{ product.pph }}</td>
-                        {% for price in product.prices %}
-                            <td> {{ price.1 }}/{{ price.2 }}</td>
-                        {% endfor %}
-                    </tr>
-                {% endfor %}
-            </table>
-            </div>
-        </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="center">
-            <p> ORDERS IN WORK: </p>
-
-            <div class="scroll">
-
-                <div class="tableFixHead">
-            <table>
+</div>
+<div class="container mb-5 mt-5 flex-column">
+    <h4 class="mb-1"> ORDERS IN WORK: </h4>
+    <div class="scroll min-h-440">
+        <div class="tableFixHead min-h-440">
+            <table class="table table-striped min-h-440">
                 <thead>
-
                 <tr>
-                    <th></th>
-                    <th></th>
+                    <th>Join</th>
+                    <th>Detail</th>
                     <th>Creator</th>
                     <th>Product</th>
                     <th>Manufacture</th>
                     <th>Size</th>
                     <th>Now</th>
                     <th>Customers
-                        <table>
-                            <tr>
-                                <th class="w3">Name</th>
-                                <th class="w2">Size</th>
-                                <th class="w2">Price</th>
-                            </tr>
-                        </table>
+                        <!--                        <table class="table table-sm">-->
+                        <!--                            <tr class="d-flex flex-column">-->
+                        <!--                                <th class="table-primary">Name</th>-->
+                        <!--                                <th class="table-success">Size</th>-->
+                        <!--                                <th class="table-warning">Price</th>-->
+                        <!--                            </tr>-->
+                        <!--                        </table>-->
 
                     </th>
                     <th>Date</th>
-                    <th>Address</th>
+                    <th>Location</th>
                 </tr>
                 </thead>
                 {% for order in orders %}
-                    {% if order.status == 'WORK' %}
+                {% if order.status == 'WORK' %}
 
 
-                    <tr>
-                        <td> <a class="button" href="{% url 'order:detail' order.id %}">DETAIL</a></td>
-                        <td> <a class="button" href="{% url 'order:append' order.id %}">APPEND</a></td>
-                        <td> {{ order.creator }} </td>
-                        <td> {{ order.product.name }}</td>
-                        <td> {{ order.product.manufacture }}</td>
-                        <td> {{ order.order_size }}</td>
-                        <td> {{ order.discount }}%</td>
-                        <td>
-                            <table>
-                            {% for customer in order.customers %}
-                                <tr>
-                                <td class="w3">
-                                {{ customer.0 }}
+                <tr>
+                    <td class="align-middle"><a class="btn btn-info" href="{% url 'order:append' order.id %}">Join</a></td>
+                    <td class="align-middle"><a class="btn btn-outline-info" href="{% url 'order:detail' order.id %}">Detail</a></td>
+                    <td class="align-middle"> {{ order.creator }}</td>
+                    <td class="align-middle searchInMe"> {{ order.product.name }}</td>
+                    <td class="align-middle"> {{ order.product.manufacture }}</td>
+                    <td class="align-middle"> {{ order.order_size }}</td>
+                    <td class="align-middle"> {{ order.discount }}%</td>
+                    <td class="align-middle">
+                        {% for customer in order.customers %}
+                        <table class="table table-sm border-dark">
+                            <tr class="d-flex flex-column">
+                                <td class="table-primary">
+                                    Name: {{ customer.0 }}
                                 </td>
-                                <td class="w2">
-                                    {{ customer.1 }}
+                                <td class="table-success">
+                                    Size: {{ customer.1 }}
                                 </td>
-                                    <td class="w2">
-                                        {{ customer.2 }}
-                                    </td>
-                                </tr>
-                            {% endfor %}
-                            </table>
-                        </td>
-                        <td> {{ order.date_finish }}</td>
-                        <td> {{ order.address }}</td>
-                    </tr>
-                    {% endif %}
+                                <td class="table-warning">
+                                    Price: {{ customer.2 }}
+                                </td>
+                            </tr>
+                        </table>
+                        {% endfor %}
+                    </td>
+                    <td class="align-middle"> {{ order.date_finish }}</td>
+                    <td class="align-middle"> {{ order.address }}</td>
+                </tr>
+                {% endif %}
                 {% endfor %}
             </table>
-                </div>
-            </div>
         </div>
     </div>
+</div>
+<div class="container mb-5 mt-5 flex-column">
+    <h4 class="mb-1">CAN BE ORDERED: </h4>
+    <div class="scroll">
+        <div class="tableFixHead">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Create</th>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <!--                    <th>NMM</th>-->
+                    <!--                    <th>PPV</th>-->
+                    <!--                    <th>PPH</th>-->
+                    <th>{{ p1 }}% / RF</th>
+                    <th>{{ p1 }}% / RF</th>
+                    <th>{{ p1 }}% / RF</th>
+                    <th>{{ p1 }}% / RF</th>
+                </tr>
+                </thead>
+                {% for product in products %}
+                <tr>
+                    <td class="align-middle"><a class="btn btn-outline-info" href="{% url 'order:create' product.pk %}">Order</a></td>
+                    <td class="align-middle searchInMe"> {{ product.code }}</td>
+                    <td class="align-middle searchInMe"> {{ product.name }}</td>
+                    <!--                        <td class="align-middle searchInMe" "> {{ product.nmm }}</td>-->
+                    <!--                        <td class="align-middle" "> {{ product.ppv }}</td>-->
+                    <!--                        <td class="align-middle" "> {{ product.pph }}</td>-->
+                    {% for price in product.prices %}
+                    <td class="align-middle"> {{ price.1 }} / {{ price.2 }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+
+
 {% endblock %}

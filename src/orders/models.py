@@ -19,7 +19,8 @@ class Order(models.Model):
     )
     date_start = models.DateTimeField(auto_now_add=True)
     date_finish = models.DateTimeField(blank=True)
-    address = models.CharField(max_length=256)
+    # address = models.CharField(max_length=256)
+    comment = models.TextField(default='')
 
     objects = OrderManager()
 

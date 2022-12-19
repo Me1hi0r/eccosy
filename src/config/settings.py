@@ -51,6 +51,8 @@ DATABASES = {
     }
 }
 
+print(DATABASES)
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

@@ -21,12 +21,6 @@
                     <form method="post">
                         {% csrf_token %}
                         {{ form.as_p }}
-                        <p>
-                            <label for="id_location">Location:</label>
-                            <input type="text" name="location" value="Moscow" maxlength="100" required=""
-                                   id="id_location">
-                        </p>
-                        <br>
                         <a href="" class="btn btn-info" onclick='this.parentNode.submit(); return false'>SAVE</a>
                     </form>
             </div>
@@ -36,6 +30,6 @@
         const byId = id => document.getElementById(id);
         const byTag = tag => document.getElementsByTagName(tag)
         byId('id_password').hidden = true
-        byTag('label')[3].hidden = true
+        byTag('label')[4].hidden = true
     </script>
 {% endblock %}

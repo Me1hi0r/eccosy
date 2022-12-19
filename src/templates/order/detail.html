@@ -29,7 +29,7 @@
             </tr>
             <tr>
                 <td class="text-left"> Address:</td>
-                <td class="text-left">{{ order.address }}</td>
+                <td class="text-left">{{ order.creator.location }}</td>
             </tr>
             <tr>
                 <td class="text-left"> Status:</td>
@@ -48,6 +48,10 @@
             <tr>
                 <td class="text-left"> Discounts:</td>
                 <td class="text-left"> {{ order.product.discounts }}</td>
+            </tr>
+            <tr>
+                <td class="text-left"> Comment:</td>
+                <td class="text-left">{{ order.comment }}</td>
             </tr>
             </tbody>
         </table>

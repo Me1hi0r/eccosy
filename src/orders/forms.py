@@ -19,7 +19,7 @@ class OrderCreationForm(ModelForm):
 
     class Meta:
         model = Order
-        fields = ('address',)
+        fields = ('date_finish', 'size', 'comment')
 
 
 class AddSizeForm(Form):

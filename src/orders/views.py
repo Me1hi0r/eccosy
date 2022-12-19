@@ -7,7 +7,8 @@ from .models import Product, Order, Customer
 class MyOrder(View):
     def get(self, req):
         orders = Order.objects.filter(creator=req.user)
-        return render(req, 'order/user.html', {'orders': orders})
+        join_orders = Customer.objects.filter(user=req.user)
+        return render(req, 'order/user.html', {'orders': orders, 'join_orders': [o.order for o in join_orders]})
 
 
 class ListOrder(View):
@@ -31,8 +32,8 @@ class CreateOrder(View):
         order = Order(product=Product.objects.get(pk=pk),
                       creator=req.user,
                       status='WORK',
-                      address=form.cleaned_data['address'],
-                      date_finish=form.cleaned_data['date_finish'])
+                      date_finish=form.cleaned_data['date_finish'],
+                      comment=form.cleaned_data['comment'])
         order.save()
         Customer(user=req.user, order=order, size=form.cleaned_data['size']).save()
         return redirect('order:detail', order.id)

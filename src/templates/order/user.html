@@ -65,6 +65,36 @@
                 {% endfor %}
             </table>
         </div>
+        <p> ORDERS WITH ME: </p>
+        <div class="tableFixHead">
+            <table>
+                <thead>
+
+                <tr>
+                    <th></th>
+                    <th>Product</th>
+                    <th>Customers</th>
+                    <th>Manufacture</th>
+                    <th>Contributor</th>
+                    <th>Size</th>
+                    <th>Now</th>
+                    <th>Discounts</th>
+                </tr>
+                </thead>
+                {% for order in join_orders %}
+                <tr>
+                    <td><a class="btn btn-info" href="{% url 'order:detail' order.id %}">DETAIL</a></td>
+                    <td> {{ order.product.name }}</td>
+                    <td> {{ order.customers }}</td>
+                    <td> {{ order.product.manufacture.name }}</td>
+                    <td> {{ order.product.contributor.name }}</td>
+                    <td> {{ order.order_size }}</td>
+                    <td> {{ order.discount }}%</td>
+                    <td> {{ order.product.discounts }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
     </div>
 </div>
 <a class="btn btn-info mb-5 mt-5 ml-auto mr-auto" href="{% url 'order:list' %}">BACK</a>
